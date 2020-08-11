@@ -5,7 +5,7 @@ August 11, 2020
 This is my Udacity Version Control project
 
 ### Description
-Describe what your project is about and what it does
+This project will help me to become a master in version control!
 
 ### Files used
 Include the files used
