@@ -11,5 +11,5 @@ This project will help me to become a master in version control!
 This uses files from my Python project
 
 ### Credits
-I have used what I learned in Udacity
+I have used the following source to find an escape character when adding a file with parentheses in its name: https://stackoverflow.com/questions/14360804/git-add-patch-on-file-with-parentheses-in-the-file-path
 
