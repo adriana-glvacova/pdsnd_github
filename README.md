@@ -2,7 +2,7 @@
 August 11, 2020
 
 ### Project Title
-Replace the Project Title
+This is my Udacity Version Control project
 
 ### Description
 Describe what your project is about and what it does
