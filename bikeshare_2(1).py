@@ -174,7 +174,7 @@ def user_stats(df):
     print('-'*40)
 
 
-def print_raw_data(df):
+def raw_data(df):
 
     user_input = input('\n\nWould you like to see raw data? (yes/no): ').lower()
     index = 0
@@ -206,7 +206,7 @@ def main():
         trip_stats(df)
         user_stats(df)
 
-        print_raw_data(df)
+        raw_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
