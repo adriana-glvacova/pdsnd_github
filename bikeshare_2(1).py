@@ -95,7 +95,7 @@ def time_stats(df):
     print('-'*40)
 
 
-def station_stats(df):
+def start_station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
@@ -118,7 +118,7 @@ def station_stats(df):
     print('-'*40)
 
 
-def trip_duration_stats(df):
+def trip_stats(df):
     """Displays statistics on the total and average trip duration."""
 
     print('\nCalculating Trip Duration...\n')
@@ -174,7 +174,7 @@ def user_stats(df):
     print('-'*40)
 
 
-def print_raw_data(df):
+def raw_data(df):
 
     user_input = input('\n\nWould you like to see raw data? (yes/no): ').lower()
     index = 0
@@ -202,11 +202,11 @@ def main():
         df = load_data(city, month, day)
 
         time_stats(df)
-        station_stats(df)
-        trip_duration_stats(df)
+        start_station_stats(df)
+        trip_stats(df)
         user_stats(df)
 
-        print_raw_data(df)
+        raw_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
@@ -215,4 +215,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
